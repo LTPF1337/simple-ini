@@ -15,7 +15,8 @@ ini.readSettings();
 
 
 // reading a value
-// the second parameter on all of these methods is optional, if the setting isn't found in the file, it will return the passed value (or default if not passed)
+// the second parameter on all of these methods is optional
+// if the setting isn't found in the file, it will return the passed value (or default if not passed)
 
 bool bValue = ini.readBool("bool_example", true);
 long lValue = ini.readLong("long_example", 1337);
