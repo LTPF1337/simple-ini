@@ -32,7 +32,7 @@ ini.writeItem("long_example", lValue);
 ini.writeItem("string_example", sValue);
 ini.writeItem("double_example", dValue);
 
-// written file format
+// file is written as json format
 
 {
   "bool_example": true,
